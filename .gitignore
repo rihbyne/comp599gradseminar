@@ -2,4 +2,11 @@
 *.out
 *.aux
 *.log
+*.blg
+*.bbl
+*.toc
+*.snm
+*.nav
 auto/
+evaluations/
+

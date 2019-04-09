@@ -1,0 +1,187 @@
+\documentclass[9pt]{beamer}
+%\usetheme[background=light]{metropolis}
+\usetheme{Warsaw}
+%\usefonttheme{professionalfonts}
+\usefonttheme{structurebold}
+\usecolortheme{dove}
+%\setmainfont{serif}
+
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{2.0em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+\setbeamercolor{footline}{fg=black}
+\setbeamerfont{footline}{series=\bfseries}
+
+\usepackage[utf8]{inputenc}
+
+\title{Distributed Web Crawler}
+\subtitle{COMP 599 - Graduate Seminar, Spring 2019}
+\author{Rihan Pereira, MSCS}
+\institute[California State University, Channel Islands]
+{
+  %\inst{1}%
+  Department of Computer Science\\
+  California State University, Channel Islands
+}
+\date{\today}
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+%\AtBeginSubsection[]
+%{
+%  \begin{frame}<beamer>{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+\begin{document}
+
+% title frame, marks the beginning of presentation
+\begin{frame}[plain]
+  \frametitle{}
+  \titlepage
+\end{frame}
+
+% table of contents a.k.a outline
+%\begin{frame}[plain]
+%  \frametitle{Roadmap}
+%  \tableofcontents
+%\end{frame}
+
+% real meat of the presentation
+% -------------------------------------
+
+%\section{The landscape of SWA}
+%\begin{frame}{}
+%  \begin{columns}
+%    \column{0.7\textwidth}
+%    \begin{itemize}
+%    \item These systems are designed to handle heavy web traffic, tolerate faults and yet continue to run
+%      \pause
+%    \item Uses lot of research from Distributed Systems
+%      \pause
+%    \item SWA has a solid plan when failure happens - unreliable network, power outage, etc.
+%      \pause
+%    \item There is no right/wrong answer when building such systems; uses design principles to benchmark
+%      solutions to the system design problems it encounters.
+%      \pause
+%    \end{itemize}
+%
+%    \column{0.3\textwidth}
+%    \includegraphics[width=70mm, height=30mm, scale=0.1]{img/hv.png}
+%    \begin{itemize}
+%    \item Availability
+%    \item Partial Tolerance
+%    \item Consistency
+%    \item scalability
+%    \item Maintenance
+%    \end{itemize}
+%  \end{columns}
+%\end{frame}
+
+% -------------------------------------
+
+\section{Web Crawling}
+\begin{frame}{Web Crawling}
+  type something to see how the font looks
+\end{frame}
+
+% -------------------------------------
+
+\subsection{Example}
+\begin{frame}{Example}
+  
+\end{frame}
+
+% -------------------------------------
+
+\subsection{Single node crawler (block diagram)}
+\begin{frame}{Single node crawler (block diagram)}
+  
+\end{frame}
+
+% -------------------------------------
+
+\subsection{Indexer}
+\begin{frame}{Indexer}
+  
+\end{frame}
+
+% -------------------------------------
+
+\subsection{Challenges faced when crawling}
+\begin{frame}{Challenges faced when crawling}
+  
+\end{frame}
+
+% -------------------------------------
+
+\section{The vision}
+\begin{frame}{The vision}
+ 
+\end{frame}
+
+% -------------------------------------
+
+\section{Distributed web crawler}
+\begin{frame}{Distributed web crawler}
+
+\end{frame}
+
+% -------------------------------------
+
+\section{Distributed Indexing}
+\begin{frame}{Distributed Indexing}
+  
+\end{frame}
+
+% -------------------------------------
+
+\section{Presentation tier}
+\begin{frame}{Presentation tier}
+  
+\end{frame}
+
+% -------------------------------------
+
+\section{Thoughts on infrastructure setup}
+\begin{frame}{Thoughts on infrastructure setup}
+  
+\end{frame}
+
+% -------------------------------------
+
+\section{Motivation for this project}
+\begin{frame}{}
+  
+\end{frame}
+
+% -------------------------------------
+
+\section{References}
+\begin{frame}
+  \bibliographystyle{unsrt}
+  \begin{thebibliography}{99}
+  \bibitem[Paper 1]{ref1} Martin Kleppmann, \newblock \emph{Designing Data Intensive applications}, \textbf{2017}
+  \bibitem[Paper 2]{ref2} James Hamilton,  \newblock \emph{On Designing and Deploying Internet-Scale Services}, \textbf{2007}.
+  \bibitem[Paper 3]{ref3} Twitter,  \newblock \emph{Automatic Management of Partitioned, Replicated Search Services}, \textbf{2011}.
+  \bibitem[Paper 4]{ref4} http://blog.acolyer.org/, \newblock \emph{The morning Paper}.
+  \bibitem[Paper 5]{ref5} http://aosabook.org, \newblock \emph{The architecture of open source applications}.
+  \bibitem[Paper 6]{ref6} http://book.mixu.net/distsys, \newblock \emph{Distributed Systems: fun and profit}.
+  \end{thebibliography}
+\end{frame}
+
+\begin{frame}{}
+  \centering{Thank you! Questions ?}
+\end{frame}
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
